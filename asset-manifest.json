@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1b05096.chunk.css",
-    "main.js": "/static/js/main.b2693edb.chunk.js",
-    "main.js.map": "/static/js/main.b2693edb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4feb3ded.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4feb3ded.js.map",
-    "static/js/2.ee69c94f.chunk.js": "/static/js/2.ee69c94f.chunk.js",
-    "static/js/2.ee69c94f.chunk.js.map": "/static/js/2.ee69c94f.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.947683c54543384e40b1db5759d796a8.js": "/precache-manifest.947683c54543384e40b1db5759d796a8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.ee69c94f.chunk.js.LICENSE.txt": "/static/js/2.ee69c94f.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/accenture-coding-challenge/static/css/main.5f361e03.chunk.css",
+    "main.js": "/accenture-coding-challenge/static/js/main.985ec1ee.chunk.js",
+    "main.js.map": "/accenture-coding-challenge/static/js/main.985ec1ee.chunk.js.map",
+    "runtime-main.js": "/accenture-coding-challenge/static/js/runtime-main.caab0069.js",
+    "runtime-main.js.map": "/accenture-coding-challenge/static/js/runtime-main.caab0069.js.map",
+    "static/js/2.ee69c94f.chunk.js": "/accenture-coding-challenge/static/js/2.ee69c94f.chunk.js",
+    "static/js/2.ee69c94f.chunk.js.map": "/accenture-coding-challenge/static/js/2.ee69c94f.chunk.js.map",
+    "index.html": "/accenture-coding-challenge/index.html",
+    "precache-manifest.b9556228fdf28b8e96c4227e510bed8d.js": "/accenture-coding-challenge/precache-manifest.b9556228fdf28b8e96c4227e510bed8d.js",
+    "service-worker.js": "/accenture-coding-challenge/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/accenture-coding-challenge/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.ee69c94f.chunk.js.LICENSE.txt": "/accenture-coding-challenge/static/js/2.ee69c94f.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/accenture-coding-challenge/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4feb3ded.js",
+    "static/js/runtime-main.caab0069.js",
     "static/js/2.ee69c94f.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.b2693edb.chunk.js"
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.985ec1ee.chunk.js"
   ]
 }
