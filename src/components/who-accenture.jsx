@@ -13,10 +13,9 @@ class WhoAreAccenture extends Component {
     <h4 className="whoAreAccenture">
         
 "Across the globe, one thing is universally true of the people of Accenture: We care deeply about what we do and the impact we have with our clients and communities. It is personal to all of us."
-
-Julie Sweet
-Chief Executive Officer
     </h4>
+    <h4> - Julie Sweet
+Chief Executive Officer</h4>
     </div>
     )
 }
