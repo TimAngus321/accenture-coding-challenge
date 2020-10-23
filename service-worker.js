@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/accenture-coding-challenge/precache-manifest.b9556228fdf28b8e96c4227e510bed8d.js"
+  "/accenture-coding-challenge/precache-manifest.2e8bc06f2575dc4fd5c5c2359f6d0717.js"
 );
 
 self.addEventListener('message', (event) => {
