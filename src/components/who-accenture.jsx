@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class whoAreAccenture extends Component {
+class WhoAreAccenture extends Component {
     constructor() {
       super();
       this.state = {
@@ -22,4 +22,4 @@ Chief Executive Officer
 }
 }
 
-export default whoAreAccenture;
+export default WhoAreAccenture;

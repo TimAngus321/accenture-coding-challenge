@@ -13,3 +13,33 @@
 .accenture-logo {
     width: 200px;
 }
+
+.find-out-about-accenture {
+    margin: 40px;
+}
+
+.about-btns {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.abt-acc-btn {
+    color: black;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-family: "Open Sans",sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.reveal-about-accenture {
+    margin: 60px 0;
+}

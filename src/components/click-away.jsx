@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import WhoAreAccenture from './who-accenture.jsx';
+import HowAccentureClients from './how-accenture.jsx';
+import WhatAccentureBelieves from './what-accenture.jsx';
 
 class ClickAbout extends Component {
     constructor() {
@@ -29,7 +31,7 @@ class ClickAbout extends Component {
                 });
                 break;
             case "showWhat":
-                this.setState({ showWho: !this.setState.showWhat });
+                this.setState({ showWhat: !this.setState.showWhat });
                 this.setState({ 
                     showWho: false,
                     showHow: false,
@@ -37,24 +39,43 @@ class ClickAbout extends Component {
                     showAwards: false,
                     showSuccessStories: false
                 });
+                break;
+                case "showHow":
+                this.setState({ showHow: !this.setState.showHow });
+                this.setState({ 
+                    showWho: false,
+                    showWhat: false,
+                    showCommunityImpact: false,
+                    showAwards: false,
+                    showSuccessStories: false
+                });
+                break;
+                default:
+                return null;
         }
     }
 
     render() {
-        const { showWho, showHow } = this.state;
+        const { showWho, showWhat, showHow } = this.state;
         return (
-            <div>
+            <div className="find-out-about-accenture">
+            <div className="about-btns">
             <div className="abt-acc-btn" onClick={() => this.hideComponent("showWho")}>
              Who?
             </div>
+            <div className="abt-acc-btn" onClick={() => this.hideComponent("showWhat")}>
+             What?
+            </div>
             <div className="abt-acc-btn" onClick={() => this.hideComponent("showHow")}>
              How?
+            </div> 
             </div>
             <div className="reveal-about-accenture">
             { showWho && <WhoAreAccenture /> }
-            { showHow && <WhoAreAccenture /> }
+            { showHow && <HowAccentureClients /> }
+            { showWhat && <WhatAccentureBelieves />}
             </div>
-            </div>
+           </div>
         )
     }
 
